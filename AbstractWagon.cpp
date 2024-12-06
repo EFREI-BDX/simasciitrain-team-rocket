@@ -1,5 +1,4 @@
 #include "AbstractWagon.h"
-
 #include <ostream>
 
 AbstractWagon::AbstractWagon(TypeWagon *typeWagon) {
@@ -16,6 +15,3 @@ char AbstractWagon::getSymbol() {
     return this->typeWagon__->getSymbol();
 }
 
-void AbstractWagon::print(std::ostream& os) {
-    os << "[" << typeWagon__->getSymbol() << "]" << std::endl;
-}

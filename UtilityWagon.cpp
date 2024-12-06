@@ -1,5 +1,8 @@
 #include "UtilityWagon.h"
 
-UtilityWagon::UtilityWagon() = default;
-
+UtilityWagon::UtilityWagon() :AbstractWagon(&TypeWagon::UTILITY){}
 UtilityWagon::~UtilityWagon() = default;
+
+void UtilityWagon::print(std::ostream& os) {
+    os << "[@]" << std::endl;
+}

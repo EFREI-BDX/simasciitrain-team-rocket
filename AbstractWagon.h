@@ -10,10 +10,16 @@ class AbstractWagon : public TrainElement {
 
     public:
     AbstractWagon(TypeWagon *typeWagon);
-    ~AbstractWagon();
+    ~AbstractWagon() override;
     [[nodiscard]] std::string getType() override;
     [[nodiscard]] char getSymbol() override;
-    void print(std::ostream& os) ;
+
+    virtual void print(std::ostream& os) = 0 ;
+
+    friend std::ostream& operator<<(std::ostream &os, const AbstractWagon &wagon) {
+        wagon.print(os);
+        return os;
+    }
 };
 
 
