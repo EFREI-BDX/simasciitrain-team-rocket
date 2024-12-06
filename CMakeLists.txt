@@ -1,31 +1,29 @@
-cmake_minimum_required(VERSION 3.30)
-project(simasciitrain)
+cmake_minimum_required(VERSION 3.29.6)
+project(simasciitrain-team-rocket)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(simasciitrain main.cpp
+add_executable(simasciitrain-team-rocket main.cpp
         TrainElement.h
+        Train.h
+        Train.cpp
+        ITrain.h
+        AbstractWagon.cpp
         TypeWagon.h
         TypeWagon.cpp
-        AbstractWagon.cpp
-        AbstractWagon.h
+        TypeLocomotive.h
+        TypeLocomotive.cpp
+        Wagons.h
+        Wagons.cpp
+        AbstractLocomotive.h
+        AbstractLocomotive.cpp
         FreightWagon.h
         FreightWagon.cpp
         PassengerWagon.h
         PassengerWagon.cpp
         UtilityWagon.h
         UtilityWagon.cpp
-        TypeLocomotive.h
-        TypeLocomotive.cpp
         ElectricLocomotive.h
-        ElectricLocomotive.h
-        AbstractLocomotive.h
-        AbstractLocomotive.cpp
-        GasolineLocomotive.h
+        ElectricLocomotive.cpp
         GasolineLocomotive.cpp
-        Wagons.h
-        Wagons.cpp
-        ITrain.h
-        Train.h
-        Train.cpp
 )
