@@ -1,6 +1,6 @@
 #include "FreightWagon.h"
 
-FreightWagon::FreightWagon(int freightCount) {
+FreightWagon::FreightWagon(int freightCount) : AbstractWagon(&TypeWagon::FREIGHT) {
     this->freightCount__ = freightCount;
 }
 

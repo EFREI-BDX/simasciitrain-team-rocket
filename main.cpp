@@ -9,7 +9,7 @@
 #include "AbstractLocomotive.h"
 #include "Train.h"
 
-using namespace simasciitrain;
+//using namespace simasciitrain;
 
 int main() {
 	AbstractWagon *freightWagon = new FreightWagon(5);
@@ -23,6 +23,7 @@ int main() {
 	std::cout << *electricLocomotive << std::endl;        //	[E]>
 	AbstractLocomotive *gasolineLocomotive = new GasolineLocomotive();
 	std::cout << *gasolineLocomotive << std::endl;        //	[G]>
+
 
 	Wagons wagons;
 	wagons.addWagon(freightWagon)->addWagon(passengerWagon)->addWagon(utilityWagon);

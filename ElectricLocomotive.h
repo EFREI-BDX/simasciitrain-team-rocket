@@ -1,10 +1,12 @@
 #ifndef ELECTRICLOCOMOTIVE_H
 #define ELECTRICLOCOMOTIVE_H
+#include "AbstractLocomotive.h"
 
 
-
-class ElectricLocomotive {
-
+class ElectricLocomotive : public AbstractLocomotive {
+    public:
+        ElectricLocomotive();
+        ~ElectricLocomotive() override;
 };
 
 

@@ -1,7 +1,7 @@
 #include "PassengerWagon.h"
 
-PassengerWagon::PassengerWagon() {
-    this->passengerCount__ = 0;
+PassengerWagon::PassengerWagon(int passengerCount) : AbstractWagon(&TypeWagon::PASSENGER) {
+    this->passengerCount__ = passengerCount;
 }
 
 PassengerWagon::~PassengerWagon() = default;

@@ -9,12 +9,12 @@ class TypeLocomotive {
         char symbol__;
 
     public:
-        static const TypeLocomotive ELECTRIC;
-        static const TypeLocomotive GASOLINE;
+        static TypeLocomotive ELECTRIC;
+        static TypeLocomotive GASOLINE;
 
         TypeLocomotive(std::string name, char symbol);
-        [[nodiscard]] std::string getName() const;
-        [[nodiscard]] char getSymbol() const;
+        [[nodiscard]] std::string getName();
+        [[nodiscard]] char getSymbol();
 };
 
 

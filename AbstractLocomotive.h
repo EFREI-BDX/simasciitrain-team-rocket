@@ -8,7 +8,7 @@
 class AbstractLocomotive: public TrainElement {
 private:
     TypeLocomotive *typeLocomotive__;
-    void print(std::ostream& os) const;
+    void print(std::ostream& os);
 
 public:
     explicit AbstractLocomotive(TypeLocomotive *typeLocomotive);

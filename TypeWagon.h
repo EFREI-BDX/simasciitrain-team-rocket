@@ -9,14 +9,14 @@ class TypeWagon{
         char symbol__;
 
     public:
-        static const TypeWagon PASSANGER;
-        static const TypeWagon FREIGHT;
-        static const TypeWagon UTILITY;
+        static TypeWagon PASSENGER;
+        static TypeWagon FREIGHT;
+        static TypeWagon UTILITY;
 
         TypeWagon(std::string name, char symbol);
 
-        [[nodiscard]] std::string getName() const;
-        [[nodiscard]] char getSymbol() const;
+        [[nodiscard]] std::string getName();
+        [[nodiscard]] char getSymbol();
 };
 
 

@@ -5,13 +5,13 @@ TypeLocomotive::TypeLocomotive(std::string name, char symbol) {
     this ->symbol__ = symbol;
 }
 
-std::string TypeLocomotive::getName() const {
+std::string TypeLocomotive::getName() {
     return this->name__;
 }
 
-char TypeLocomotive::getSymbol() const{
+char TypeLocomotive::getSymbol(){
     return this->symbol__;
 }
 
-const TypeLocomotive TypeLocomotive::ELECTRIC = TypeLocomotive("Electrique",'E');
-const TypeLocomotive TypeLocomotive::GASOLINE = TypeLocomotive(" Essence", 'G');
+TypeLocomotive TypeLocomotive::ELECTRIC = TypeLocomotive("Electrique",'E');
+TypeLocomotive TypeLocomotive::GASOLINE = TypeLocomotive(" Essence", 'G');

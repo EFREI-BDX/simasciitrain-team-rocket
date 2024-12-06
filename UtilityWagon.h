@@ -3,7 +3,7 @@
 #include "AbstractWagon.h"
 
 
-class UtilityWagon :  AbstractWagon {
+class UtilityWagon : public AbstractWagon {
     private:
         void print(std::ostream& os);
 

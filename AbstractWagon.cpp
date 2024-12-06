@@ -2,17 +2,17 @@
 
 #include <ostream>
 
-AbstractWagon::AbstractWagon(TypeWagon* typeWagon) {
+AbstractWagon::AbstractWagon(TypeWagon *typeWagon) {
     this->typeWagon__ = typeWagon;
 }
 
 AbstractWagon::~AbstractWagon() = default;
 
-std::string AbstractWagon::getType() override {
+std::string AbstractWagon::getType() {
     return this->typeWagon__->getName();
 }
 
-char AbstractWagon::getSymbol() override {
+char AbstractWagon::getSymbol() {
     return this->typeWagon__->getSymbol();
 }
 

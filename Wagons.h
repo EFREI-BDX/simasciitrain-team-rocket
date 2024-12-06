@@ -6,12 +6,14 @@
 
 class Wagons {
     private:
-        std::pmr::vector<AbstractWagon*> wagons;
+        std::pmr::vector<AbstractWagon*> wagons__;
 
     public:
         Wagons();
         ~Wagons();
-        
+        Wagons* addWagon(AbstractWagon* wagon);
+        friend std::ostream& operator<<(std::ostream& os, const Wagons& wagons);
+
 
 };
 

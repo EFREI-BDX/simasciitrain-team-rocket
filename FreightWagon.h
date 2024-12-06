@@ -2,10 +2,12 @@
 #define FREIGHTWAGON_H
 #include <ostream>
 
-class FreightWagon {
+#include "AbstractWagon.h"
+
+class FreightWagon : public AbstractWagon {
     private:
         int freightCount__;
-        void print(std::ostream& os);
+        void print(std::ostream& os) override;
 
     public:
         FreightWagon(int freightCount);

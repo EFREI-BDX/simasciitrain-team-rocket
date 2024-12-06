@@ -2,13 +2,15 @@
 #define PASSENGERWAGON_H
 #include <ostream>
 
-class PassengerWagon {
+#include "AbstractWagon.h"
+
+class PassengerWagon : public AbstractWagon {
     private:
         int passengerCount__;
         void print(std::ostream& os);
 
     public:
-        PassengerWagon();
+        PassengerWagon(int passengerCount);
         ~PassengerWagon();
         [[nodiscard]] int getPassengerCount() const;
         void setPassengerCount(int passengerCount);

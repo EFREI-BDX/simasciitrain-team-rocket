@@ -15,6 +15,6 @@ char AbstractLocomotive::getSymbol() override {
     return this->typeLocomotive__->getSymbol();
 }
 
-void AbstractLocomotive::print(std::ostream& os) const {
+void AbstractLocomotive::print(std::ostream& os) {
 os << "[" << typeLocomotive__->getSymbol() << "]" << ">" << std::endl;
 }
