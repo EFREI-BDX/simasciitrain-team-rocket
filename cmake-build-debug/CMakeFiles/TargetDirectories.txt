@@ -1,0 +1,3 @@
+C:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/cmake-build-debug/CMakeFiles/simasciitrain-team-rocket.dir
+C:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/cmake-build-debug/CMakeFiles/rebuild_cache.dir
