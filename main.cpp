@@ -24,7 +24,6 @@ int main() {
 	AbstractLocomotive *gasolineLocomotive = new GasolineLocomotive();
 	std::cout << *gasolineLocomotive << std::endl;        //	[G]>
 
-
 	Wagons wagons;
 	wagons.addWagon(freightWagon)->addWagon(passengerWagon)->addWagon(utilityWagon);
 	std::cout << wagons << std::endl;                    //	[#####]-[OOOOO]-[@]

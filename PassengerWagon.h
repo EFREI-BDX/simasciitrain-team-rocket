@@ -7,11 +7,11 @@
 class PassengerWagon : public AbstractWagon {
     private:
         int passengerCount__;
-        void print(std::ostream& os);
+        void print(std::ostream& os) const override;
 
     public:
         PassengerWagon(int passengerCount);
-        ~PassengerWagon();
+        ~PassengerWagon() override = default;
         [[nodiscard]] int getPassengerCount() const;
         void setPassengerCount(int passengerCount);
 };

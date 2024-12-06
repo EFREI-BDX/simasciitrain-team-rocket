@@ -14,7 +14,7 @@ class AbstractWagon : public TrainElement {
     [[nodiscard]] std::string getType() override;
     [[nodiscard]] char getSymbol() override;
 
-    virtual void print(std::ostream& os) = 0 ;
+    virtual void print(std::ostream& os) const = 0;
 
     friend std::ostream& operator<<(std::ostream &os, const AbstractWagon &wagon) {
         wagon.print(os);

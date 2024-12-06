@@ -8,11 +8,11 @@
 class AbstractLocomotive: public TrainElement {
 private:
     TypeLocomotive *typeLocomotive__;
-    void print(std::ostream& os);
+    void print(std::ostream& os) const override;
 
 public:
     explicit AbstractLocomotive(TypeLocomotive *typeLocomotive);
-    ~AbstractLocomotive();
+    ~AbstractLocomotive() override;
     [[nodiscard]]char getSymbol() override;
     [[nodiscard]]std::string getType() override;
 };

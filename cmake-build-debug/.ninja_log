@@ -1,0 +1,14 @@
+# ninja log v6
+323	2271	7552075590924975	CMakeFiles/simasciitrain-team-rocket.dir/Train.cpp.obj	8e21c05e9c89062e
+137	1723	7552072511020459	CMakeFiles/simasciitrain-team-rocket.dir/GasolineLocomotive.cpp.obj	f0696dbcce570f57
+253	2365	7552075590552018	CMakeFiles/simasciitrain-team-rocket.dir/Wagons.cpp.obj	7a84e91164959bad
+174	2111	7552035554219967	CMakeFiles/simasciitrain-team-rocket.dir/TypeWagon.cpp.obj	2c6e3ccd959cd747
+221	2208	7552035554688596	CMakeFiles/simasciitrain-team-rocket.dir/TypeLocomotive.cpp.obj	9283076627a7c3ab
+213	2159	7552075589824549	CMakeFiles/simasciitrain-team-rocket.dir/UtilityWagon.cpp.obj	79d4212d66be91e8
+470	2302	7552073493834801	CMakeFiles/simasciitrain-team-rocket.dir/ElectricLocomotive.cpp.obj	79b27f76df03f2ea
+139	2058	7552075589079588	CMakeFiles/simasciitrain-team-rocket.dir/FreightWagon.cpp.obj	bc68b7690225cf64
+176	2126	7552075589461416	CMakeFiles/simasciitrain-team-rocket.dir/PassengerWagon.cpp.obj	5309d03d46bc965f
+103	2055	7552075588716401	CMakeFiles/simasciitrain-team-rocket.dir/AbstractWagon.cpp.obj	5747e9f593590b2a
+13	1238	7552076081765355	build.ninja	bdfaa37728ac1e49
+45	2036	7552075588138181	CMakeFiles/simasciitrain-team-rocket.dir/main.cpp.obj	39f93bf5a3f702a9
+101	1623	7552072510657530	CMakeFiles/simasciitrain-team-rocket.dir/AbstractLocomotive.cpp.obj	83ecd16ce060fb24

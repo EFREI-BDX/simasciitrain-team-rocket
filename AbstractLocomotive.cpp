@@ -7,14 +7,14 @@ AbstractLocomotive::AbstractLocomotive(TypeLocomotive* typeLocomotive) {
 
 AbstractLocomotive::~AbstractLocomotive() = default;
 
-std::string AbstractLocomotive::getType() override {
+std::string AbstractLocomotive::getType() {
     return this->typeLocomotive__->getName();
 }
 
-char AbstractLocomotive::getSymbol() override {
+char AbstractLocomotive::getSymbol() {
     return this->typeLocomotive__->getSymbol();
 }
 
-void AbstractLocomotive::print(std::ostream& os) {
-os << "[" << typeLocomotive__->getSymbol() << "]" << ">" << std::endl;
+void AbstractLocomotive::print(std::ostream& os) const {
+    os << "[" << typeLocomotive__->getSymbol() << "]" << ">" << std::endl;
 }

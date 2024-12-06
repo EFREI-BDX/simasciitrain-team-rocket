@@ -55,38 +55,14 @@ build CMakeFiles/simasciitrain-team-rocket.dir/main.cpp.obj: CXX_COMPILER__simas
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
   OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
 
-build CMakeFiles/simasciitrain-team-rocket.dir/Train.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/Train.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
-  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\Train.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-
-build CMakeFiles/simasciitrain-team-rocket.dir/AbstractWagon.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/AbstractWagon.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
-  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\AbstractWagon.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-
 build CMakeFiles/simasciitrain-team-rocket.dir/TypeWagon.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/TypeWagon.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
   DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\TypeWagon.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
   OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
 
-build CMakeFiles/simasciitrain-team-rocket.dir/TypeLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/TypeLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
-  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\TypeLocomotive.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-
-build CMakeFiles/simasciitrain-team-rocket.dir/Wagons.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/Wagons.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
-  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\Wagons.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
-
-build CMakeFiles/simasciitrain-team-rocket.dir/AbstractLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/AbstractLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
-  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\AbstractLocomotive.cpp.obj.d
+build CMakeFiles/simasciitrain-team-rocket.dir/AbstractWagon.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/AbstractWagon.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
+  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\AbstractWagon.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
   OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
@@ -109,14 +85,38 @@ build CMakeFiles/simasciitrain-team-rocket.dir/UtilityWagon.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
   OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
 
-build CMakeFiles/simasciitrain-team-rocket.dir/ElectricLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/ElectricLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
-  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\ElectricLocomotive.cpp.obj.d
+build CMakeFiles/simasciitrain-team-rocket.dir/TypeLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/TypeLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
+  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\TypeLocomotive.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+
+build CMakeFiles/simasciitrain-team-rocket.dir/AbstractLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/AbstractLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
+  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\AbstractLocomotive.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
   OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
 
 build CMakeFiles/simasciitrain-team-rocket.dir/GasolineLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/GasolineLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
   DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\GasolineLocomotive.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+
+build CMakeFiles/simasciitrain-team-rocket.dir/Wagons.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/Wagons.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
+  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\Wagons.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+
+build CMakeFiles/simasciitrain-team-rocket.dir/Train.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/Train.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
+  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\Train.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+  OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
+
+build CMakeFiles/simasciitrain-team-rocket.dir/ElectricLocomotive.cpp.obj: CXX_COMPILER__simasciitrain-team-rocket_unscanned_Debug C$:/Users/u1054071/source/repos/cours/programmation/simasciitrain-team-rocket/ElectricLocomotive.cpp || cmake_object_order_depends_target_simasciitrain-team-rocket
+  DEP_FILE = CMakeFiles\simasciitrain-team-rocket.dir\ElectricLocomotive.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir
   OBJECT_FILE_DIR = CMakeFiles\simasciitrain-team-rocket.dir
@@ -129,7 +129,7 @@ build CMakeFiles/simasciitrain-team-rocket.dir/GasolineLocomotive.cpp.obj: CXX_C
 #############################################
 # Link the executable simasciitrain-team-rocket.exe
 
-build simasciitrain-team-rocket.exe: CXX_EXECUTABLE_LINKER__simasciitrain-team-rocket_Debug CMakeFiles/simasciitrain-team-rocket.dir/main.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/Train.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/AbstractWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/TypeWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/TypeLocomotive.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/Wagons.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/AbstractLocomotive.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/FreightWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/PassengerWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/UtilityWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/ElectricLocomotive.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/GasolineLocomotive.cpp.obj
+build simasciitrain-team-rocket.exe: CXX_EXECUTABLE_LINKER__simasciitrain-team-rocket_Debug CMakeFiles/simasciitrain-team-rocket.dir/main.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/TypeWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/AbstractWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/FreightWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/PassengerWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/UtilityWagon.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/TypeLocomotive.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/AbstractLocomotive.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/GasolineLocomotive.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/Wagons.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/Train.cpp.obj CMakeFiles/simasciitrain-team-rocket.dir/ElectricLocomotive.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\simasciitrain-team-rocket.dir

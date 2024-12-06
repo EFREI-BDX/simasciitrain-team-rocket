@@ -5,13 +5,11 @@
 
 class UtilityWagon : public AbstractWagon {
     private:
-        void print(std::ostream& os) override;
+        void print(std::ostream& os) const override;
 
     public:
         UtilityWagon();
-        ~UtilityWagon() override;
+        ~UtilityWagon();
 };
-
-
 
 #endif //UTILITYWAGON_H

@@ -5,7 +5,7 @@
 
     class TrainElement {
     public:
-        virtual ~TrainElement();
+        virtual ~TrainElement() = default;
         [[nodiscard]] virtual char getSymbol();
         [[nodiscard]] virtual std::string getType();
 

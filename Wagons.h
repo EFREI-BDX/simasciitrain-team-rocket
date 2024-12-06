@@ -13,8 +13,6 @@ class Wagons {
         ~Wagons();
         Wagons* addWagon(AbstractWagon* wagon);
         friend std::ostream& operator<<(std::ostream& os, const Wagons& wagons);
-
-
 };
 
 #endif //WAGONS_H
