@@ -5,14 +5,14 @@
 
 
 class AbstractWagon : public TrainElement {
-    private:
+    protected:
     TypeWagon *typeWagon__;
 
     public:
     AbstractWagon(TypeWagon *typeWagon);
     ~AbstractWagon() override;
-    [[nodiscard]] std::string getType() override;
-    [[nodiscard]] char getSymbol() override;
+    [[nodiscard]] std::string getType();
+    [[nodiscard]] char getSymbol();
 
     virtual void print(std::ostream& os) const = 0;
 

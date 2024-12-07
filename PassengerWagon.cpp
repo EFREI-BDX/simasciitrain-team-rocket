@@ -12,7 +12,6 @@ void PassengerWagon::setPassengerCount(int passengerCount) {
     this->passengerCount__ = passengerCount;
 }
 
-void PassengerWagon::print(std::ostream& os) const
-{
-os << "[" << this->passengerCount__ << "]" << std::endl;
+void PassengerWagon::print(std::ostream& os) const {
+    os << "[" << std::string(this->passengerCount__, this->typeWagon__->getSymbol()) << "]";
 }

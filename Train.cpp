@@ -7,3 +7,4 @@ Train::~Train() = default;
 void Train::print(std::ostream& os) const {
     os << *wagons << "-" << *locomotive;
 }
+

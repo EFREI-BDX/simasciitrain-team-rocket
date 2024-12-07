@@ -12,7 +12,7 @@ Wagons* Wagons::addWagon(AbstractWagon* wagon) {
 }
 
 std::ostream& operator<<(std::ostream& os, const Wagons& wagons) {
-    for (auto wagon : wagons.wagons__) {
+    for (const auto& wagon : wagons.wagons__) {
         os << *wagon << "-";
     }
     return os;

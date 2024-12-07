@@ -13,6 +13,6 @@ char TypeWagon::getSymbol() {
     return this->symbol__;
 }
 
-TypeWagon TypeWagon::PASSENGER = TypeWagon("Passenger", 'o');
+TypeWagon TypeWagon::PASSENGER = TypeWagon("Passenger", '0');
 TypeWagon TypeWagon::FREIGHT = TypeWagon("Freight", '#');
 TypeWagon TypeWagon::UTILITY = TypeWagon("Utility", '@');

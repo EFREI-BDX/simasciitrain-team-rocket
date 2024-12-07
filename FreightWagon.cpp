@@ -14,6 +14,6 @@ void FreightWagon::setFreightCount(int freightCount) {
     this->freightCount__ = freightCount;
 }
 
-void FreightWagon::print(std::ostream& os) const{
-    os << "[" << this->freightCount__ << "]" << std::endl;
+void FreightWagon::print(std::ostream& os) const {
+    os << "[" << std::string(this->freightCount__, this->typeWagon__->getSymbol()) << "]";
 }
